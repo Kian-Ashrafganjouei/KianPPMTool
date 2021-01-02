@@ -10,6 +10,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.validation.BindingResult;
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -34,6 +35,7 @@ import com.ashrafganjouei.kian.services.ProjectService;
 //If you forget the difference between MVC controllers and Rest controllers --> https://javarevisited.blogspot.com/2017/08/difference-between-restcontroller-and-controller-annotations-spring-mvc-rest.html#axzz6eqSmhh1P
 @RestController
 @RequestMapping("/api/project")
+@CrossOrigin
 public class ProjectController {
 	@Autowired
 	private ProjectService projectService;

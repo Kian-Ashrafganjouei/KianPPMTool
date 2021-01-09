@@ -6,7 +6,7 @@ class Header extends Component {
       <nav className="navbar navbar-expand-lg navbar-light bg-success">
         <div className="container">
           <a className="navbar-brand" href="Dashboard.html">
-            Kian Project Tool
+            Kian's Project Tool
           </a>
 
           <button

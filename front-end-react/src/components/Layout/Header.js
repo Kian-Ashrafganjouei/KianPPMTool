@@ -5,9 +5,9 @@ class Header extends Component {
     return (
       <nav className="navbar navbar-expand-lg navbar-light bg-success">
         <div className="container">
-          <a className="navbar-brand" href="Dashboard.html">
+          <h5 className="navbar-brand" href="Dashboard.html">
             Kian's Project Tool
-          </a>
+          </h5>
 
           <button
             className="navbar-toggler"
